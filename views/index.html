@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A Twitch Username Checker">
+  <title>Twitch Username Checker</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Twitch Username Checker</h1>
+  </header>
+
+  <main>
+    <form>
+      <label>
+        Username
+        <input name="username" type="text" maxlength="15" required placeholder="ilikecoffee">
+      </label>
+      <button type="submit" id="submit-check">Check</button>
+    </form>
+
+    <section class="results">
+      <ul id="usernames"></ul>
+    </section>
+  </main>
+
+  <footer>Made with Node.js</footer>
+</body>
+
+</html>

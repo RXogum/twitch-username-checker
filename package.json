@@ -1,0 +1,21 @@
+{
+  "name": "twitch-username-checker",
+  "version": "0.0.1",
+  "description": "A twitch username checker.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "axios",
+    "express",
+    "twitch"
+  ]
+}
